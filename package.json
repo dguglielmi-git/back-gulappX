@@ -1,0 +1,32 @@
+{
+  "name": "back-gulappX",
+  "version": "0.0.1",
+  "description": "backend api gulappX",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrainte/back-gulappX.git"
+  },
+  "author": "los mas grosos",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ebrainte/back-gulappX/issues"
+  },
+  "homepage": "https://github.com/ebrainte/back-gulappX#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@google/maps": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-geocoder": "^3.25.0",
+    "mongoose": "^5.7.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
