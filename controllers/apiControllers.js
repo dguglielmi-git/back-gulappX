@@ -1,7 +1,5 @@
 var Dishes = require("../model/modelDish");
 var Comments = require("../model/modelComment");
-var bodyParser = require("body-parser");
-var request = require("request");
 var NodeGeocoder = require("node-geocoder");
 const rp = require("request-promise");
 
